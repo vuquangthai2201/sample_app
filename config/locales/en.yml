@@ -11,24 +11,27 @@ en:
       screencast_series_link: screencast series
       ruby_on_rails_url: http://rubyonrails.org/
       ruby_on_rails_link: Ruby on Rails
-      para_1: the
-      para_2: is a
-      para_3: and
-      para_4: to teach web development with
-      para_5: This is the sample application for the tutorial.
+      about_text1: the
+      about_text2: is a
+      about_text3: and
+      about_text4: to teach web development with
+      about_text5: This is the sample application for the tutorial.
     home: 
       title: Home
-      para_1: sample_app
-      para_2: This is the home page for the
-      para_3: sample application
+      home_text1: sample_app
+      home_text2: This is the home page for the
+      home_text3: sample application
       rails_url: http://www.railstutorial.org/
       rails_link: Ruby on Rails Tutorial
     help:
       title: Help 
-      para_1: Help
-      para_2: Get help on the Ruby on Rails Tutorial at the
+      help_text1: Help
+      help_text2: Get help on the Ruby on Rails Tutorial at the
       rails_url: http://www.railstutorial.org/help
       rails_link: Rails Tutorial help section
-      para_3: To get help on this sample app, see the
+      help_text3: To get help on this sample app, see the
       book_url: http://www.railstutorial.org/book
       book_link: Ruby on Rails Tutorial
+  helper:
+    application_help: 
+      application_text1: Ruby on Rails Tutorial Sample App
