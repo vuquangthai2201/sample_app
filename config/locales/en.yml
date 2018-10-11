@@ -62,3 +62,22 @@ en:
       home_text: Home
       help_text: Help
       log_in_text: Log in
+  users:
+    new:
+      title: Sign up
+      confirm: Confirmation
+      name_text: name
+      email_text: email
+      password_text: password
+      password_confirmation_text: password confirmation
+      create_account: Create my account
+  concerns:
+    users:
+      users_welcome: Welcome to the Sample App!
+  shared:
+    error:
+      form: The form contains
+      errors_count:
+        one: 1 error
+        other: "%{count} errors"
+
