@@ -18,11 +18,14 @@ en:
       about_text5: This is the sample application for the tutorial.
     home: 
       title: Home
-      home_text1: sample_app
+      home_text1: Welcome to the Sample App
       home_text2: This is the home page for the
       home_text3: sample application
       rails_url: http://www.railstutorial.org/
       rails_link: Ruby on Rails Tutorial
+      home_text4: Sign up now!
+      home_text5: Rails logo
+      ruby_url: http://rubyonrails.org/
     help:
       title: Help 
       help_text1: Help
@@ -32,6 +35,30 @@ en:
       help_text3: To get help on this sample app, see the
       book_url: http://www.railstutorial.org/book
       book_link: Ruby on Rails Tutorial
+    contact:
+      title: Contact
+      contact_text1: Contact the Ruby on Rails Tutorial about the sample app at the
+      contact_text2: Ruby on me
+      rails_url: http://www.railstutorial.org/contact
   helper:
     application_help: 
       application_text1: Ruby on Rails Tutorial Sample App
+  layouts:
+    footer: 
+      footer_text1: The
+      rails_url: http://www.railstutorial.org/
+      author_url: http://www.michaelhartl.com/
+      footer_text2: Ruby on Rails Tutorial
+      footer_text3: by
+      footer_text4: Michael Hartl
+      news_url: http://news.railstutorial.org/
+      footer_text5: news
+      footer_text6: About
+      footer_text7: Contact
+      author_path_url: author_path
+      contact_path_url: contact_path
+    header:
+      sample_app_text: sample_app
+      home_text: Home
+      help_text: Help
+      log_in_text: Log in
