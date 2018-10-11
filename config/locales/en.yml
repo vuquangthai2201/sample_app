@@ -2,7 +2,7 @@ en:
   static_pages:
     about:
       title: About
-      home: sample_app
+      home: sample app
       rails_url: http://www.railstutorial.org/
       rails_link: Ruby on Rails Tutorial
       book_url: http://www.railstutorial.org/book
@@ -58,10 +58,21 @@ en:
       author_path_url: author_path
       contact_path_url: contact_path
     header:
-      sample_app_text: sample_app
+      sample_app_text: sample app
       home_text: Home
       help_text: Help
       log_in_text: Log in
+      user_text: Users
+      account_text: Account
+      log_out_text: Log out
+      profile_text: Profile
+      setting_text: Settings
+  sessions:
+    new:
+      title: Log in
+      email_text: email
+      password_text: password
+      sign_up_text: Sign up now!
   users:
     new:
       title: Sign up
@@ -71,9 +82,12 @@ en:
       password_text: password
       password_confirmation_text: password confirmation
       create_account: Create my account
-  concerns:
+  controllers:
     users:
       users_welcome: Welcome to the Sample App!
+      mess_notfound: User notfound
+    session:
+      invalid_text: Invalid email/password combination
   shared:
     error:
       form: The form contains
