@@ -1,0 +1,5 @@
+user:
+  validate:
+    name_max_len: 50
+    email_max_len: 255
+    password_min_len: 6
