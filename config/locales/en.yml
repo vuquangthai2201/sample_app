@@ -82,6 +82,20 @@ en:
       password_text: password
       password_confirmation_text: password confirmation
       create_account: Create my account
+    user:
+      delete_text: delete
+      confirm_text: You sure?
+    edit:
+      title: Edit user
+      confirm: Confirmation
+      profile_text: Update your profile
+      name_text: name
+      email_text: email
+      password_text: password
+      password_confirmation_text: password confirmation
+      save_text: Save changes
+    index:
+      title: All users
   controllers:
     users:
       users_welcome: Welcome to the Sample App!

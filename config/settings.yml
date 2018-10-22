@@ -6,4 +6,5 @@ user:
 userhelper:
   size:
     size_len: 80
- 
+users:
+  gravatar_size: 50
