@@ -2,7 +2,7 @@
   <div id="error_explanation">
     <div class="alert alert-danger">
       <%= t ".form" %>
-      <%= t(".errors_count"), count: @user.errors.size) %>.
+      <%= t ".errors_count", count: @user.errors.size %>.
     </div>
     <ul>
     <% @user.errors.full_messages.each do |msg| %>
