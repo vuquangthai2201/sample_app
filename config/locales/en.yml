@@ -96,12 +96,24 @@ en:
       save_text: Save changes
     index:
       title: All users
+  user_maler:
+    account_activation:
+      sample_text: Sample App
+      hi: hi
+      welcome: Welcome to the Sample App! Click on the link below to activate your account
+      activate: activate
+    account_activation:
+      hi_text: Hi
+      welcome: Welcome to the Sample App! Click on the link below to activate your account
   controllers:
     users:
       users_welcome: Welcome to the Sample App!
       mess_notfound: User notfound
     session:
       invalid_text: Invalid email/password combination
+    account_activation:
+      activated: Account activated!
+      invalid: Invalid activation link
   shared:
     error:
       form: The form contains

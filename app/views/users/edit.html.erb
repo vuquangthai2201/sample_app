@@ -1,5 +1,6 @@
 <% provide(:title, t(".title")) %>
-<h1>Update your profile</h1>
+<% provide(:button_text, t(".save_text")) %>
+<h1><%= t ".profile_text" %></h1>
 
 <div class="row">
   <div class="col-md-6 col-md-offset-3">
@@ -18,7 +19,7 @@
       <%= f.label t(".password_confirmation_text"), t(".confirm") %>
       <%= f.password_field :password_confirmation, class: 'form-control' %>
 
-      <%= f.submit t(".Save_text"), class: "btn btn-primary" %>
+      <%= f.submit t(".save_text"), class: "btn btn-primary" %>
     <% end %>
 
     <div class="gravatar_edit">

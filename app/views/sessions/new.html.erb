@@ -5,10 +5,10 @@
     <%= form_for(:session, url: login_path) do |f| %>
 
       <%= f.label t(".email_text") %>
-      <%= f.email_field t(".email_text"), class: "form-control" %>
+      <%= f.email_field :email, class: "form-control" %>
 
       <%= f.label t(".password_text") %>
-      <%= f.password_field t(".password_text"), class: "form-control" %>
+      <%= f.password_field :password, class: "form-control" %>
 
       <%= f.label :remember_me, class: "checkbox inline" do %>
         <%= f.check_box :remember_me %>
