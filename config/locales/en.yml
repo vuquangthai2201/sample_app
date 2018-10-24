@@ -67,12 +67,32 @@ en:
       log_out_text: Log out
       profile_text: Profile
       setting_text: Settings
+  password_resets:
+    new:
+      title: Forgot password
+      email_text: email
+    edit:
+      title: Reset password
+      password_text: password
+      password_confirmation_text: password_confirmation
+      confirmation_text: Confirmation
+      update_text: Update password
   sessions:
     new:
       title: Log in
       email_text: email
       password_text: password
       sign_up_text: Sign up now!
+      remember_me_text: remember_me
+      remember_text: Remember me on this computer
+  user_mailer:
+    password_reset:
+      password_reset_text: Password reset
+      click_text: To reset your password click the link below
+      link_text: This link will expire in two hours.
+      request_text: If you did not request your password to be reset, please ignore this email and
+        your password will stay as it is.
+      reset_password_text: Reset password
   users:
     new:
       title: Sign up
@@ -109,11 +129,23 @@ en:
     users:
       users_welcome: Welcome to the Sample App!
       mess_notfound: User notfound
+      check_email: Please check your email to activate your account.
+      profile_updated: Profile updated
+      user_delete: User deleted
+    password_resets:
+      email_sent: Email sent with password reset instructions
+      email_notfound: Email address not found
+      password_reset: Password has been reset
+      password_expire: Password reset has expired
     session:
       invalid_text: Invalid email/password combination
     account_activation:
       activated: Account activated!
       invalid: Invalid activation link
+  mailer:
+    user_mailer:
+      account_text: Account activation
+      password_text: Password reset
   shared:
     error:
       form: The form contains
