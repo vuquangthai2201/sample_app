@@ -73,6 +73,8 @@ en:
       email_text: email
       password_text: password
       sign_up_text: Sign up now!
+      remember_me_text: remember_me
+      remember_on_text: Remember me on this computer
   users:
     new:
       title: Sign up
@@ -94,4 +96,3 @@ en:
       errors_count:
         one: 1 error
         other: "%{count} errors"
-
