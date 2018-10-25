@@ -6,15 +6,14 @@ class PasswordResetsController < ApplicationController
   def new; end
 
   def create
-    
     @user = User.find_by(email: params[:password_reset][:email].downcase)
     if @user
       @user.create_reset_digest
       @user.send_password_reset_email
-      flash[:info] = t"controllers.password_resets.email_sent"
+      flash[:info] = t "controllers.password_resets.email_sent"
       redirect_to root_path
     else
-      flash.now[:danger] = t"controllers.password_resets.email_notfound"
+      flash.now[:danger] = t "controllers.password_resets.email_notfound"
       render "new"
     end
   end
@@ -27,7 +26,7 @@ class PasswordResetsController < ApplicationController
       render "edit"
     elsif @user.update_attributes(user_params)
       log_in @user
-      flash[:success] = t"controllers.password_resets.password_reset"
+      flash[:success] = t "controllers.password_resets.password_reset"
       redirect_to @user
     else
       render "edit"
@@ -51,7 +50,7 @@ class PasswordResetsController < ApplicationController
 
   def check_expiration
     return unless @user.password_reset_expired?
-      flash[:danger] = t"controllers.password_resets.password_expire"
-      redirect_to new_password_reset_path
+    flash[:danger] = t "controllers.password_resets.password_expire"
+    redirect_to new_password_reset_path
   end
 end

@@ -26,6 +26,7 @@ en:
       home_text4: Sign up now!
       home_text5: Rails logo
       ruby_url: http://rubyonrails.org/
+      micropost_text: Micropost Feed
     help:
       title: Help 
       help_text1: Help
@@ -147,9 +148,14 @@ en:
       account_text: Account activation
       password_text: Password reset
   shared:
-    error:
+    error_messages:
       form: The form contains
       errors_count:
-        one: 1 error
+        one: "1 error"
         other: "%{count} errors"
+    user_info:
+      view_text: view my profile
+    micropost:
+      delete_text: delete
+      confirm_text: You sure?
 
